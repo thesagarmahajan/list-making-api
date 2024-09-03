@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "user1",
+      "email": "user1@gmail.com"
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "title": "List-1",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "List-2",
+      "status": true
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "item 1",
+      "status": false,
+      "list_id": 1
+    },
+    {
+      "id": 2,
+      "title": "item 2",
+      "status": false,
+      "list_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Item another",
+      "status": false,
+      "list_id": 2
+    },
+    {
+      "id": 4,
+      "title": "Item new",
+      "status": false,
+      "list_id": 2
+    }
+  ]
+}
